@@ -3,7 +3,7 @@ import java.util.ArrayList;
 /**
  * A class to show the current tallies of votes for each candidate.
  * 
- * @author frankieburgoyneS
+ * @author frankieburgoyne
  */
 public class TallyDisplay implements Observer {
     private Subject poll;
