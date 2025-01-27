@@ -4,6 +4,7 @@ import java.util.Random;
 
 /**
  * A driver for our student government polling system.
+ * @author frankieburgoyne
  */
 public class SchoolDriver {
     private static final String CANDIDATE_1 = "Jim Roberts";
