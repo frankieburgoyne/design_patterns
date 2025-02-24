@@ -1,6 +1,3 @@
-import java.time.LocalTime;
-import java.time.Duration;
-
 /**
  * Class that represents a flight with a flight number, origin airport, destination airport, start time, end time, and number of transfers
  * @author frankieburgoyne
