@@ -48,20 +48,16 @@ public class Flight {
     }
     
     /**
-     * Checks if the origin and destination airports are the same.
+     * Checks if the locations are the same
      *
      * @param from The origin airport.
      * @param to   The destination airport.
-     * @return True if the airports are the same, false otherwise.
+     * @return True if the airports are the same
      */
     public boolean sameLoc(Airport from, Airport to) {
         return from.equals(to);
     }
 
-    /**
-     * Getter for the start time
-     * @return the start time
-     */
     public String toString() {
         Duration duration = Duration.between(startTime, endTime);
         long hours = duration.toHours();
